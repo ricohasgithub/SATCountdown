@@ -1,0 +1,12 @@
+{
+    "name": "SATCountdown",
+    "version": "1.0",
+    "description": "Time your SAT practice times!",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "assets/icon.png",
+        "default_title": "SATCountdown",
+        "default_popup": "src/html/popup.html"
+    },
+    "permissions": ["storage", "unlimitedStorage", "tabs", "<all_urls>"]
+}
